@@ -1,0 +1,629 @@
+
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+
+
+body, html {
+    margin: 0 auto;
+    background-color: black;
+    max-height: 600px;
+    max-width: 930px;
+    min-width: 940px;
+    font-family: Raleway;
+}
+
+#header-container {
+    width: 100%;
+    height: 20%;
+    margin-top: 30px;
+}
+
+#header-bar {
+    margin-top: 10px;
+    width: 100%;
+    height: 38px;
+}
+
+.bar-item {
+    border-right: 1px groove white;
+    border-left: 1px groove white;
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    height: 60%;
+    width: 16.45444455%;
+    float: left;
+    z-index: 0;
+}
+
+.bar-item:hover {
+    cursor: hand;
+    background-color: #be630e;
+}
+
+.title-text {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+
+#title {
+    font-size: 36px;
+}
+
+#subtitle {
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.home{
+    margin-top: 10px;
+    width: 900px;
+    position: relative;
+    width: 100%;
+    height: 90%;
+    z-index: 0;
+}
+
+.home img{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#home-message {
+    left: 0;
+    right: 0;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    height: 300px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#button {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #6392c0;
+
+}
+
+/*_____________ Picture below*/
+
+#parent {
+    top: -50;
+    margin: 0px auto;
+    z-index: 40;
+    width: 940px;
+    height: 250px;
+/*    background-color: white;
+*/    position: relative;
+}
+
+#parent img {
+    width: 100%;
+    height: 100%;
+}
+
+#image1 {
+    position: absolute;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 350px;
+    height: 100%;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.caption {
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.caption::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+
+}
+
+.caption:hover::before {
+    background: rgba(0, 0, 0, .5);
+
+}
+
+
+#image2 {
+    position: absolute;
+    left: 353px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    top: -75;
+    width: 230px;
+    height: 130%;
+    background-color: green;
+}
+
+#image3 {
+    left: 587px;
+    position: absolute;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 350px;
+    height: 100%;
+    background-color: purple;
+}
+
+.caption__media {
+    display: block;
+    width: 200px;
+    height: auto;
+
+}
+
+.caption_overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 10;
+    left: 0;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption_overlay {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+
+.caption_overlay_title {
+    -webkit-transform: translateY( -webkit-calc(-100% - 10px) );
+            transform: translateY( calc(-100% - 10px) );
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption_overlay_title {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+
+
+/*_____________ End of Picture below*/
+
+
+/*About section */
+
+
+#about-container {
+    margin-top: 10px;
+    height: 70%;
+    position: relative;
+}
+
+#about-message {
+    left: 0;
+    right: 0;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: absolute;
+    height: 300px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    z-index: 1;
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.description {
+    margin-top: 10px;
+    width: 200px;
+    height: 90px;
+    float: left;
+    color: white;
+    margin-left: 20px;
+    background-color:rgba(153,178,255,0.3);
+}
+
+.d-image {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 70px;
+    float: left;
+}
+
+.d-image img{
+    width: 70px;
+}
+
+.d-title {
+    float: left;
+     width: 90px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.d-subtitle {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+#about-text {
+    margin-top: 10px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+
+#about-body {
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+#design {
+    margin-top: 30px;
+    position: relative;
+    height: 70%;
+}
+
+.about-circle {
+    position: relative;
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+
+.about-circle:hover {
+    width: 150px;
+    height: 150px;
+
+}
+#one {
+    background-color: #f2f2f2;
+}
+
+#two {
+    background-color: #3366ff;
+}
+
+#three {
+    background-color: #333333
+;
+    color: white;
+}
+
+#four {
+    background-color: #009933;
+}
+
+#five {
+    background-color: #ff3333;
+}
+
+.circle-text {  
+    margin-top: 40%;  
+    text-align: center;
+}
+
+#design-second {
+    height: 310px;
+    color: white;
+    text-align: center;
+}
+
+.square {
+    margin-top: 10px;
+    margin-left: 27.5px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-left: orange;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right: orange;
+    border-right-width: 2px;
+    border-right-style: solid;
+
+}
+
+
+.square-text {
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+    font-size: 25px;
+}
+
+#more-text {
+    font-size: 20px;
+}
+
+.square-img {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: relative;
+    width: 90px;
+    height: 90px;
+}
+
+#finance {
+    font-size: 20px;
+}
+
+#finance-img {
+    top: -10;
+}
+
+#bottom-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    color: white;
+    padding-bottom: 20px;
+}
+
+/*Curriculum stuff */
+
+#curr-bar {
+    margin-top: 10px;
+    position: absolute;
+    height: 500%;
+    width: 5px;
+    background-color: white;
+}
+
+.curr-item {
+    margin-top: 10px;
+    height: 380px;
+    position: relative;
+}
+
+.date {
+    top: 125;
+    margin-left: 115px;
+    z-index: 50;
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    background-color: rgba(255, 77, 77, .5);
+    text-align: center;
+}
+
+.date-title {
+    font-size: 30px;
+    color: white;
+}
+
+.date-subtitle {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+
+.curr-message {
+    left: 0;
+    right: 0;
+    margin-top: 5%;
+    margin-left: 31%;
+    margin-right: 27%;
+    position: fixed;
+    height: 230px;
+    max-width: 100%;
+    color: white;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+.curr{
+    left: 0;
+    right: 0;
+    margin-left: 100;
+    margin-right: auto;
+    margin-top: 10px;
+    position: relative;
+    width: 89.5%;
+    height: 100%;
+    z-index: 0;
+}
+
+.curr img{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.discussion {
+    color: white;
+    z-index: 40;
+    position: absolute;
+    background-color: rgba(0, 102, 0, 0.6);
+    height: 110px;
+    width: 205px;
+    margin-left: 715px;
+    top: 80;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.assignment {
+    color: white;
+    z-index: 40;
+    position: absolute;
+    background-color: rgba(102, 0, 204, 0.6);
+    height: 90px;
+    width: 205px;
+    margin-left: 715px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 200;
+    padding-bottom: 10px;
+}
+
+.disc-title {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.disc-desc {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ass-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ass-desc {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#curr-message {
+    font-size: 18px;
+}
+
+#curr-submessage {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #6392c0;
+
+}
+
+
+/*SIdebar stuff */
+
+#nav-toggle { 
+    position: absolute; 
+    left: 50%; top: 50%; 
+}
+
+#nav-toggle {
+    padding: 10px 30px 15px 0px; 
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: '';
+}
+
+#nav-toggle span:before {
+    top: -10px; 
+}
+
+#nav-toggle span:after {
+    bottom: -10px;
+}
+
+/* Styling the Sidebar Button */
+#sidebar-button {
+    position: fixed;
+    z-index: 100;
+    left: 15px;
+    top: 15px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+} 
+
+/* Overriding default styles on the ul */
+.sidebar-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+
+
+
