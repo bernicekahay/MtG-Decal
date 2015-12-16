@@ -536,141 +536,6 @@ to {-webkit-transform: translateY(-18px);}
     transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-#bar-one {
-    margin-top: 0px;
-    background-color: rgba(102, 102, 255, .8);
-}
-
-#bar-two {
-    margin-top: 37px;
-}
-
-#bar-three {
-    margin-top: 74px;
-} 
-
-#bar-four {
-    margin-top: 111px;
-} 
-
-#bar-five {
-    margin-top: 148px;
-} 
-
-#bar-six {
-    margin-top: 185px;
-} 
-
-#bar-seven {
-    margin-top: 222px;
-} 
-
-#bar-eight {
-    margin-top: 259px;
-}
-
-#bar-nine {
-    margin-top: 296px;
-} 
-
-#bar-ten {
-    margin-top: 333px;
-} 
-
-#bar-eleven {
-    margin-top: 370px;
-} 
-
-#bar-twelve {
-    margin-top: 407px;
-} 
-
-#bar-thirteen {
-    margin-top: 444px;
-} 
-
-#bar-fourteen {
-    margin-top: 481px;
-} 
-
-#bar-fifteen {
-    margin-top: 518px;
-} 
-
-
-.bar-label {
-    position: fixed;
-    left: 30px;
-    top: 30px;
-    background-color: green;
-    height: 20px;
-    width: 70px;
-    text-align: center;
-    font-size: 14px;
-    color: white;
-}
-
-#bar-1 {
-    margin-top: 0px;
-}
-
-
-#bar-2 {
-    margin-top: 37px;
-}
-
-#bar-3 {
-    margin-top: 74px;
-}
-
-#bar-4 {
-    margin-top: 111px;
-}
-
-#bar-5 {
-    margin-top: 148px;
-}
-
-#bar-6 {
-    margin-top: 185px;
-}
-
-#bar-7 {
-    margin-top: 222px;
-}
-
-#bar-8 {
-    margin-top: 259px;
-}
-
-#bar-9 {
-    margin-top: 296px;
-}
-
-#bar-10 {
-    margin-top: 333px;
-}
-
-#bar-11 {
-    margin-top: 370px;
-}
-
-#bar-12 {
-    margin-top: 407px;
-}
-
-#bar-13 {
-    margin-top: 444px;
-}
-
-#bar-14 {
-    margin-top: 481px;
-}
-
-#bar-15 {
-    margin-top: 518px;
-}
-
 .curr-item {
     margin-top: 10px;
     height: 380px;
@@ -821,15 +686,13 @@ to {-webkit-transform: translateY(-18px);}
     position: fixed;
     width: 200px;
     height: 30px;
-/*    background-color: rgba(0, 0, 0, 1);
-*//*    background-color: rgb(255, 102, 102);
-*/    color: white;
+    color: white;
     font-size: 13px;
     text-align: center;
     padding-top: 10px;
     z-index: 99;
-    top: 108%;
-    left: 63%;
+    top: 700px;
+    left: 730px;
     margin-top: -100px;
     margin-left: -250px;
     -webkit-animation: guide-bounce 0.5s alternate infinite;
@@ -837,8 +700,7 @@ to {-webkit-transform: translateY(-18px);}
 
 
 #thing {
-    width: 100%;
-    height: 150px;
+    height: 300px;
 }
 
 /*Instructor stuff */
