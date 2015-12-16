@@ -1,54 +1,5 @@
 $(document).ready(function() {
 
-var contact = 0;
-
-$(".contact").hide();
-
-$("#robert-contact").click(function () {
-    if (contact == 0) {
-        $("#robert").show();
-        contact = 1;
-    }
-    else {
-        $("#robert").hide();
-        contact = 0;
-    }
-});
-
-$("#kyle-contact").click(function () {
-    if (contact == 0) {
-        $("#kyle").show();
-        contact = 1;
-    }
-    else {
-        $("#kyle").hide();
-        contact = 0;
-    }
-});
-
-$("#richard-contact").click(function () {
-    if (contact == 0) {
-        $("#richard").show();
-        contact = 1;
-    }
-    else {
-        $("#richard").hide();
-        contact = 0;
-    }
-});
-
-$("#bernice-contact").click(function () {
-    if (contact == 0) {
-        $("#bernice").show();
-        contact = 1;
-    }
-    else {
-        $("#bernice").hide();
-        contact = 0;
-    }
-});
-
-
 
 $('.curr-message').hide();
 $('#curr-message-1').show();

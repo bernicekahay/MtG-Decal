@@ -820,11 +820,6 @@ to {-webkit-transform: translateY(-18px);}
     cursor: hand;
 }
 
-.contact {
-    margin: 0 auto;
-    font-size: 14px;
-}
-
 /*Apply stuff*/
 
 .home{
@@ -853,8 +848,8 @@ to {-webkit-transform: translateY(-18px);}
     left: 0;
     right: 0;
     margin-top: 2.5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     position: absolute;
     height: 400px;
     max-width: 100%;
@@ -883,6 +878,11 @@ to {-webkit-transform: translateY(-18px);}
     height: 100px;
     margin-top: 20px;
     background-color: #6392c0;
+}
+
+#apply-button:hover {
+    cursor: hand;
+    -webkit-animation: guide-bounce 0.5s alternate infinite;
 }
 
 #some-space2 {
@@ -933,7 +933,7 @@ to {-webkit-transform: translateY(-18px);}
     border-style: solid;
     left: 640px;
     width: 300px;
-    height: 300px;
+    height: 340px;
 }
 
 #image12 img{
@@ -942,7 +942,7 @@ to {-webkit-transform: translateY(-18px);}
 }
 
 #image13 {
-    top: -512px;
+    top: -552px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
@@ -956,7 +956,7 @@ to {-webkit-transform: translateY(-18px);}
 }
 
 #image14 {
-    top: -718px;
+    top: -758px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
@@ -972,7 +972,7 @@ to {-webkit-transform: translateY(-18px);}
 }
 
 #image15 {
-    top: -718px;
+    top: -758px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
@@ -988,7 +988,7 @@ to {-webkit-transform: translateY(-18px);}
 }
 
 #image16 {
-    top: -924px;
+    top: -964px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
@@ -1008,7 +1008,7 @@ to {-webkit-transform: translateY(-18px);}
     border-width: 3px;
     border-style: solid;
     width: 300px;
-    height: 305px;
+    height: 265px;
     left: 640px;
 }
 
