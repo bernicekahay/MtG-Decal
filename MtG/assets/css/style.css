@@ -239,22 +239,49 @@ to {-webkit-transform: translateY(-18px);}
     border-width: 3px;
     border-style: solid;
     width: 820px;
-    height: 130%;
+    height: 140%;
     top: 260px;
 }
 
-#image0 {
+/*#image0 {
     position: absolute;
-    left: 50px;
+    left: 220px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
-    width: 820px;
-    height: 130%;
-    top: 595px;
+    width: 480px;
+    height: 140%;
+    top: 620px;
+    margin-bottom: 20px;
+}*/
+
+#last {
+    position: absolute;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    top: 620px;
     margin-bottom: 20px;
 }
 
+#last-img {
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+
+#last-msg {
+    text-align: center;
+    line-height: 25px;
+    margin-top: 25px;
+    float: left;
+    margin-left: 10px;
+    width: 560px;
+    height: 100%;
+    color: white;
+}
 
 .caption {
     width: auto;
@@ -921,48 +948,37 @@ to {-webkit-transform: translateY(-18px);}
 /*Instructor stuff */
 
 #us {
-    padding-top: 20px;
-    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
     text-align: center;
-    height: 20px;
-    width: 500px;
     font-size: 26px;
-    padding-bottom: 0px;
     color: white;
 }
 
 .inst-container {
-    margin-top: 30px;
-    width: 235px;
-    height: 450px;
+    margin-top: 20px;
+    width: 100%;
+    height: 280px;
     position: relative;
-    float: left;
-    text-align: center;
-    color: white;
+    color: #DBDADA;
 }
 
 .second-container {
-    height: 340px;
-    z-index: 0;
-    position: absolute;
-    top: 70px;
-    width: 200px;
+    border-color: rgb(140, 140, 140);
     border-width: 12px;
-    border-color: rgb(128, 128, 128);
     border-style: solid;
-    background-color: rgb(230, 230, 230);
-    z-index: 0;
+    margin-left: 20px;
+    float: left;
+    width: 45%;
+    height: 95%;
     border-radius: 10px;
-}
-
-.inst-detail {
-    margin-top: 70px;
+    background-color: rgba(96, 96, 96, .4);
 }
 
 .inst-photo {
-    position: absolute;
-    left: 37.5;
-    width: 150px;
+    float: left;
+    position: relative;
+    width: 28%;
     z-index: 5;
 }
 
@@ -971,29 +987,23 @@ to {-webkit-transform: translateY(-18px);}
     border-radius: 50%;
 }
 
+.inst-detail {
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    width: 65%;
+    height: 100%;
+}
+
+
 .inst-name {
     margin-top: 8px;
     font-size: 24px;
     margin-bottom: 3px;
-    color: black;
 }
 
 .position {
     font-size: 14px;
-    color: black;
-}
-
-.inst-descrip {
-    padding-top: 5px;
-    margin: 0 auto;
-    width: 180px;
-    background-color: #6392c0;
-    padding-bottom: 5px;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
 }
 
 @keyframes fadein {
@@ -1025,27 +1035,14 @@ to {-webkit-transform: translateY(-18px);}
     to   { opacity: 1; }
 }
 
-#arrow {
-    position: relative;
-    top: 5;
-    left: 2;
-    width: 10%;
-    border-radius: 50%;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-}
-
 .hidden-descrip {
-    padding-top: 10px;
-    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(26, 26, 26, .4);
+    height: 180px;
+    line-height: 20px;
     font-size: 14px;
-    margin: 0 auto;
-    width: 180px;
-    height: 125px;
-    padding-bottom: 10px;
     overflow: scroll;
-    color: black;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -1054,22 +1051,21 @@ to {-webkit-transform: translateY(-18px);}
 }
 
 .inst-contact {
-    padding-top: 5px;
     margin: 0 auto;
-    width: 180px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    width: 100px;
     background-color: #6392c0;
     padding-bottom: 10px;
+}
 
+.inst-contact:hover {
+    cursor: hand;
 }
 
 .contact {
-    padding-top: 10px;
     margin: 0 auto;
-    width: 180px;
-    height: 100px;
-    padding-bottom: 10px;
-    overflow: scroll;
-    color: black;
     font-size: 14px;
 }
 
@@ -1100,7 +1096,7 @@ to {-webkit-transform: translateY(-18px);}
 #apply-message {
     left: 0;
     right: 0;
-    margin-top: 5%;
+    margin-top: 2.5%;
     margin-left: 20%;
     margin-right: 20%;
     position: absolute;
@@ -1133,10 +1129,135 @@ to {-webkit-transform: translateY(-18px);}
     background-color: #6392c0;
 }
 
-#some-space1 {
-    height: 10px;
-}
-
 #some-space2 {
     height: 30px;
 }
+
+
+/*Faq stuff*/
+
+#question-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+#image10 {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 310px;
+    height: 200px;
+}
+
+#image10 img{
+    width: 100%;
+    height: 100%;
+}
+
+#image11 {
+    top: -206px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    left: 320px;
+    width: 310px;
+    height: 200px;
+}
+
+#image11 img{
+    width: 100%;
+    height: 100%;
+}
+
+#image12 {
+    top: -412px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    left: 640px;
+    width: 300px;
+    height: 300px;
+}
+
+#image12 img{
+    width: 100%;
+    height: 100%;
+}
+
+#image13 {
+    top: -512px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 310px;
+    height: 200px;
+}
+
+#image13 img{
+    width: 100%;
+    height: 100%;
+}
+
+#image14 {
+    top: -718px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 310px;
+    height: 200px;
+    left: 320px;
+
+}
+
+#image14 img{
+    width: 100%;
+    height: 100%;
+}
+
+#image15 {
+    top: -718px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 310px;
+    height: 200px;
+    left: 320px;
+
+}
+
+#image15 img{
+    width: 100%;
+    height: 100%;
+}
+
+#image16 {
+    top: -924px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 310px;
+    height: 200px;
+
+}
+
+#image16 img{
+    width: 100%;
+    height: 100%;
+}
+
+#image17 {
+    top: -1236px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 300px;
+    height: 305px;
+    left: 640px;
+}
+
+#image17 img{
+    width: 100%;
+    height: 100%;
+}
+
