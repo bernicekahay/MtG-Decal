@@ -242,18 +242,6 @@ to {-webkit-transform: translateY(-18px);}
     top: 260px;
 }
 
-/*#image0 {
-    position: absolute;
-    left: 220px;
-    border-color: black;
-    border-width: 3px;
-    border-style: solid;
-    width: 480px;
-    height: 140%;
-    top: 620px;
-    margin-bottom: 20px;
-}*/
-
 #last {
     position: absolute;
     border-color: black;
@@ -349,101 +337,10 @@ to {-webkit-transform: translateY(-18px);}
             transform: translateY(0);
 }
 
-/*#lecture {
-    margin-top: 10px;
-    left: 50px;
-    width: 400px;
-    height: 280px;
-    position: absolute;
-    color: white;
-    background-color: #6392c0;
-}
 
-.item-box {
-    text-align: center;
-    color: black;
-    top: 60px;
-    position: absolute;
-    width: 280px;
-    height: 180px;
-    padding-top: 10px;
-    background-color: white;
-}
-
-#timebox1 {
-    position: absolute;
-    background-color: rgb(255, 153, 153);
-    width: 28%;
-    height: 25%;
-    left: 60px;
-    top: 140px;
-    left: 149px;
-    padding-top: 30px;
-    text-align: center;
-}
-
-#timebox2 {
-    position: absolute;
-    background-color: rgb(255, 153, 153);
-    width: 28%;
-    height: 25%;
-    left: 60px;
-    top: 140px;
-    left: 163px;
-    padding-top: 30px;
-    text-align: center;
-}
-
-#textbox1 {
-    font-size: 14px;
-    left: 60px;
-}
-
-#box2 {
-    left: 80px;
-}
-
-#textbox2 {
-    font-size: 14px;
-    left: 80px;
-}
-
-#discussion {
-    margin-top: 10px;
-    left: 460px;
-    width: 400px;
-    height: 280px;
-    position: absolute;
-    color: white;
-    background-color: #78c272;
-}*/
-
-/*#schedule-message {
-    left: 0;
-    right: 0;
-    margin-top: 2.5%;
-    margin-left: 2%;
-    margin-right: 2%;
-    position: absolute;
-    height: 340px;
-    max-width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    z-index: 1;
-    padding-top: 20px;
-    font-size: 30px;
-    text-align: center;
-}*/
-
-/*.s-title{
-    margin-top: 10px;
-    text-align: center;
-    font-size: 33px;
-}
-*/
 #about-container {
     margin-top: 10px;
-    height: 60%;
+    height: inherit;
     position: relative;
 }
 
@@ -1074,7 +971,7 @@ to {-webkit-transform: translateY(-18px);}
     margin-top: 10px;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 400px;
     z-index: 0;
 }
 
