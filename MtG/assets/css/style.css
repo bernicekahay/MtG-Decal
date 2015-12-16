@@ -211,33 +211,33 @@ to {-webkit-transform: translateY(-18px);}
 }
 
 #image1 {
-    left: 50px;
+    left: 30px;
     position: absolute;
     border-color: black;
     border-width: 3px;
     border-style: solid;
-    width: 410px;
+    width: 440px;
     height: 100%;
     overflow: hidden;
 }
 
 #image3 {
-    left: 470px;
+    left: 480px;
     position: absolute;
     border-color: black;
     border-width: 3px;
     border-style: solid;
-    width: 400px;
+    width: 440px;
     height: 100%;
 }
 
 #image2 {
     position: absolute;
-    left: 50px;
+    left: 30px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
-    width: 820px;
+    width: 890px;
     height: 140%;
     top: 260px;
 }
